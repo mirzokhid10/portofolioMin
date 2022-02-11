@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font public sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--box icon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--flexboxgrid sheet-->
+    <link rel="stylesheet" href="./styles/flexboxgrid.min.css" />
+    <!--contact css-->
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <!--portofolio css-->
+    <link rel="stylesheet" href="./styles/portoflio.css" />
+    <!--style sheet-->
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Portofolio</title>
+  </head>
+  <body class="body">
+
+    <!--header-->
+    <header class="header">
+        <div class="container-fluid container">
+          <div class="header-inner row middle-xs between-xs">
+            <div class="header-logo col-lg-2">
+              <a href="#">
+                <img src="./images/logo.svg" alt="logo" />
+              </a>
+            </div>
+            <div
+              class="header-navigation end-xs col-xs-6 col-sm-4 col-md-4 col-lg-4"
+            >
+              <nav class="navbar">
+                <ul class="navbar-list">
+                  <li class="navbar-items"><a href="/index.html">home</a></li>
+                  <li class="navbar-items">
+                    <a href="/portofolio.html">portofolio</a>
+                  </li>
+                  <li class="navbar-items active"><a href="/contact.html">contact me</a></li>
+                </ul>
+              </nav>
+              <div class="header-closebtn">
+                <a href="#"><i class="bx bx-menu"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!--header-->
+
+    <!-- Contact -->
+    <sectionn class="contact">
+        <div class="container">
+        <div class="contact__inner row">
+            <h2 class="contact__title col-xs-12 col-md-5">Get in Touch</h2>
+            <div class="contact__desc col-xs-12 col-md-7">
+            <p class="contact__text">I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.</p>
+            <ul class="socials__list row middle-xs">
+                <li class="socials__item"><a href="#"><i class='bx bxl-github'></i></a></li>
+                <li class="socials__item"><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li class="socials__item"><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="contact__inner row">
+            <h2 class="contact__title col-xs-12 col-md-5">Contact Me</h2>
+            <div class="contact__desc col-xs-12 col-md-7">
+            <form class="contact__form">
+                <label class="contact__label" for="name">Name</label>
+                <input class="contact__input" type="text" id="name" placeholder="Jane Appleseed" required>
+                <label class="contact__label" for="email">Email Address</label>
+                <input class="contact__input" type="email" id="email" placeholder="email@example.com" required>
+                <label class="contact__label" for="message">Message</label>
+                <input class="contact__input message" type="text" id="message" placeholder="How can I help?" required>
+                <button type="submit" class="contact__btn btn">SEND MESSAGE</button>
+            </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Contact -->
+
+    <!--footer-->
+    <section class="footer section">
+        <div class="container">
+            <div
+            class="footer-inner row middle-xs middle-md middle-lg between-md between-lg"
+            >
+            <div class="footer-logo col-xs-12 col-lg-1 center-xs">
+                <img src="./images/flogo.png" alt="logo" />
+            </div>
+            <nav class="footer-nav center-xs col-xs-12 col-lg-9">
+                <ul class="footer-items center-xs">
+                <li class="footer-lists"><a href="/index.html">home</a></li>
+                <li class="footer-lists"><a href="/portofolio">portofolio</a></li>
+                <li class="footer-lists"><a href="./contact">contact me</a></li>
+                </ul>
+            </nav>
+            <div class="footer__socail-link col-xs-12 col-lg-2">
+                <ul class="footer__socail-lists center-xs">
+                <li class="footer__socail-items">
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </li>
+                <li class="footer__socail-items">
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                </li>
+                <li class="footer__socail-items">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--footer page-->
+  </body>
+</html>
