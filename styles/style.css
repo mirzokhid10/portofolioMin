@@ -77,9 +77,14 @@
   display: none;
 }
 
-.header-closebtn a i {
+.header-closebtn span i {
   font-size: 28px;
   color: #33323d;
+}
+
+.closebtn {
+  font-size: 28px;
+  color: #fff;
 }
 
 /*hero*/
@@ -412,21 +417,23 @@
     top: 100%;
     right: 0;
     width: 50%;
-    height: 50vh;
+    height: 40vh;
     background: #33323d;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    display: none;
   }
 
-  .navbar-list {
+  .navbar ul {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .navbar ul li {
     margin: 1rem 0;
+    padding: 0;
   }
 
   .navbar ul li a {
@@ -434,6 +441,10 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+  }
+
+  .show {
+    height: 200px;
   }
 
   .header-closebtn {

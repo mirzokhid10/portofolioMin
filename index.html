@@ -36,7 +36,7 @@
           <div
             class="header-navigation end-xs col-xs-6 col-sm-4 col-md-4 col-lg-4"
           >
-            <nav class="navbar">
+            <nav id="navBar" class="navbar">
               <ul class="navbar-list">
                 <li class="navbar-items active">
                   <a class="active" href="/index.html">home</a>
@@ -50,7 +50,9 @@
               </ul>
             </nav>
             <div class="header-closebtn">
-              <a href="#"><i class="bx bx-menu"></i></a>
+              <span id="headerBtn" onclick="edit()"
+                ><i class="bx bx-menu"></i
+              ></span>
             </div>
           </div>
         </div>
@@ -164,6 +166,7 @@
         </div>
       </div>
     </section>
+    <script src="./scripts/script.js"></script>
     <!--footer page-->
     <!--bootstarp JS-->
   </body>
